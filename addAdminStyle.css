@@ -1,0 +1,57 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Center and style the form container */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333333;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Style the form and its inputs */
+form {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"],
+form input[type="number"]{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}

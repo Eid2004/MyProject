@@ -1,0 +1,59 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Center the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style the login box */
+.login {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Style the form inputs */
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #45a049;
+}
